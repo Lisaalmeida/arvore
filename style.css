@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+height:100%;
+}
+
+body {
+    color: white;
+    background: rgb(34,193,195);
+    background: linear-gradient(29deg, rgba(34,193,195,1) 0%, rgba(132,143,51,1) 100%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.avatar {
+    width: 170px;
+    border-radius: 100px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 120;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    margin-top: 2px;
+    text-align: center;
+} 
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+
+} 
+
+.social{
+    display:flex;
+    justify-content: space-around;
+    border-top: 10px;
+    list-style: none;
+    margin: auto;
+    margin-top: 15px;
+    width: 240px;
+    
+}
+.social img {
+    width: 45px;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.links-list {
+    list-style: none;
+}
+
+.links-list-second li {
+    margin: 10px 20px;
+    list-style: none;  
+}
+
+.links-list-second li a {
+    display: block;
+    color: (54,76,221);
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.links-list-second li a span {
+    color: gray;
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: gray;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -5px;
+
+}
